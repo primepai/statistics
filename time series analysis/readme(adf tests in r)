@@ -6,5 +6,8 @@ adf.test() in tseries library and adfTest() in fUnitRoots library.
 adfTest(x, lags = 1, type = c("nc", "c", "ct"), title = NULL,
 description = NULL)
 
-note: "nc", "c", or "cy" in type is a character string describing the type of the unit root regression. Valid choices are "nc" for a regression with no intercept (constant) nor time trend, and "c" for a regression with an intercept (constant) but no time trend, "ct" for a regression
+note: "nc", "c", or "cy" in type is a character string describing the type of 
+the unit root regression. Valid choices are "nc" for a regression with no 
+intercept (constant) nor time trend, and "c" for a regression with an 
+intercept (constant) but no time trend, "ct" for a regression
 with an intercept (constant) and a time trend. The default is "c".
