@@ -31,9 +31,11 @@ dis01 <- dist(cus_scale02,method="euclidean")
 fviz_nbclust(cus_scale02, FUN = hcut, method = "wss")
 
 method1 <- hclust(dis01,method="complete")
-plot(method1,cex=0.6,hang=-1,main="dendrogram of agnes")
+#plot dendrogram, k is numher of cluster in dendrogram
+plot(method1,cex=0.6,hang=-1,main="dendrogram")
 rect.hclust(method1,k=5,border=2:5)
 sub_grp <- cutree(method1,k=5)
 table(sub_grp)
+#plot 2D cluster
 fviz_cluster(list(cluster=sub_grp,data=cus_scale02))
 
