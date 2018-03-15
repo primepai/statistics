@@ -1,4 +1,4 @@
-#factor analysis for targeting donators. data is from sas class. 
+#factor analysis for targeting donators. data is from website. 
 library(stats)
 library(psy)
 library(psych) #for bartlett's test 
