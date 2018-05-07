@@ -1,1 +1,2 @@
-This folder is for case study using logistic regression and decision tree in R. 
+This folder is for case study comparing logistic regression and decision tree and randomforest in R.
+In this example, randomforest has better performance than the other two.
